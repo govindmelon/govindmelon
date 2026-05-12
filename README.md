@@ -1,4 +1,4 @@
-<img  alt="govind-banner" src="https://github.com/user-attachments/assets/4b2db05b-1353-4ed5-91b1-64b91be7f02c" />
+<img alt="govind-banner" src="https://github.com/user-attachments/assets/4b2db05b-1353-4ed5-91b1-64b91be7f02c" />
 
 I build weird, useful, and occasionally unnecessary things with code, electronics, and design.
 
