@@ -1,4 +1,4 @@
-vcb;[[{"type":6},{"type":8,"all":0},{"type":0,"length":15,"boolop":1,"frule":2,"prmA":0,"prmB":0},{"type":4,"c":[44,325,44,325,44,325]},{"type":4,"c":[52,275,52,275,52,275]},{"type":4,"c":[127,242,127,242,127,242]},{"type":4,"c":[105,202,105,202,105,202]},{"type":4,"c":[97,148,97,148,97,148]},{"type":4,"c":[112,100,112,100,112,100]},{"type":4,"c":[151,84,151,84,151,84]},{"type":4,"c":[208,80,208,80,208,80]},{"type":4,"c":[227,92,227,92,227,92]},{"type":4,"c":[250,125,250,125,250,125]},{"type":4,"c":[259,169,259,169,259,169]},{"type":4,"c":[235,217,235,217,235,217]},{"type":4,"c":[224,249,224,249,224,249]},{"type":1,"c":[289,271.546875,299,278,309,284.453125]},{"type":4,"c":[316,325,316,325,316,325]}],[{"t":"Objc","v":{"classID":"null","keyOriginIndex":{"t":"long","v":0},"keyShapeInvalidated":{"t":"bool","v":true}}}]]     
+<img width="820" height="230" alt="govind-banner" src="https://github.com/user-attachments/assets/4b2db05b-1353-4ed5-91b1-64b91be7f02c" />
 
 I build weird, useful, and occasionally unnecessary things with code, electronics, and design.
 
