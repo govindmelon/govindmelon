@@ -1,4 +1,4 @@
-# ![](https://github.com/govindmelon/govindmelon/blob/main/govind-banner.png)")
+# ![](https://github.com/govindmelon/govindmelon/blob/main/govind-banner.png)
 I build weird, useful, and occasionally unnecessary things with code, electronics, and design.
 
 Most of my projects start as experiments that I do for fun and slowly evolve into something real. I enjoy 
