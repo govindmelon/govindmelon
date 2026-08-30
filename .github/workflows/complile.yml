@@ -1,0 +1,43 @@
+name: Compile Test Firmware
+
+on:
+  push:
+    paths:
+      - "**/*.ino"
+      - ".github/workflows/compile.yml"
+  pull_request:
+    paths:
+      - "**/*.ino"
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        sketch:
+          - Tests/mcu1_test/mcu1_test.ino
+          - Tests/mcu2_test/mcu2_test.ino
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Install arduino-cli
+        uses: arduino/setup-arduino-cli@v2
+
+      - name: Install ESP8266 board core
+        run: |
+          arduino-cli config init
+          arduino-cli config add board_manager.additional_urls https://arduino.esp8266.com/stable/package_esp8266com_index.json
+          arduino-cli core update-index
+          arduino-cli core install esp8266:esp8266
+
+      - name: Install required libraries
+        run: |
+          arduino-cli lib install "Adafruit GFX Library"
+          arduino-cli lib install "Adafruit SSD1306"
+          arduino-cli lib install "IRremoteESP8266"
+
+      - name: Compile sketch
+        run: |
+          arduino-cli compile --fqbn esp8266:esp8266:nodemcuv2 "${{ matrix.sketch }}"
